@@ -1,0 +1,84 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  } */
+  .logo{
+    height: 100px;
+    width: 300px;
+   align-items: center;
+   margin-left: 40px;
+  }
+
+nav{
+    display: flex;
+    height: auto;
+    background-color: lightseagreen;
+}
+input{
+    height:50px;
+    width: 400px;
+    margin-top: 20px;
+    border-width: 0ch;
+    border-radius: 8px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+#home{
+    font-size: 40px;  
+    margin-top: 20px ;
+    margin-left: 100px;
+}
+#whishlist{
+   margin-left: 100px;
+    margin-top: 20px;
+    font-size: 40px;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#search{
+height: 30px;
+width:30px ;
+border-width: 0ch;
+margin-top: 17px;
+
+}
+
+/* .animelist
+{
+    display: inline-block;
+    width: 740px;
+    height: auto;
+    text-align: center;
+    margin: 10px 0px;
+    margin-top: 10px;
+    padding: 10px;
+
+} */
+.anime-list{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.animelist:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: rgb(137, 183, 232);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.22);
+}
+
+#wishlist{
+    background-color: transparent;
+    border: none;
+}
+#wishlist:active{
+transform: scale(1.1);
+}
+
+
+
